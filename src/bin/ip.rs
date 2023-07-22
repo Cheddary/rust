@@ -1,5 +1,5 @@
 use reqwest::Error;
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 use serde_json::Value;
 
 #[derive(Debug, Deserialize)]
